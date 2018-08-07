@@ -61,6 +61,7 @@ for page in jsonFile["query"]["pages"]:
         else:
           pass
       
+      #get revisions that are creating aliases
       elif revision["comment"].startswith("/* wbsetaliases-add:1|en */"):
         print(revision["timestamp"] + ": Alias created as: '" + revision["comment"][28:] + "'")
       
