@@ -12,3 +12,11 @@ Using your CLI (Powershell/Terminal etc) run the program with a QID and wikidata
 
 Prerequisites:
 Python 3.x
+
+
+Added a version that will write to csv. Currently writes to the same folder as the program. It only requires a QID parameter on the CLI and gives results for all users (up to 50 revisions I believe).
+
+Usage:
+
+
+"python wikidataRevisionsReporting-csv.py Q11272"
