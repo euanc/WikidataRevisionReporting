@@ -1,5 +1,7 @@
 # WikidataRevisionReporting
-A program for reporting on revisions to Wikidata data items made by a particular user
+A proof of concept program for reporting on revisions to Wikidata data items made by a particular user.
+
+The program is not comprehensive. It's only intended to show that you can retrieve from https://wikidata.org only data from users that you trust. 
 
 
 Usage:
