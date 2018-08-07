@@ -1,0 +1,55 @@
+Item,QID,username,timestamp,Field,Field ID,Action,Value,Value ID
+Microsoft Excel,Q11272,JC Work,2018-07-11T18:13:39Z,Twitter username,P2002,created,msexcel,none
+Microsoft Excel,Q11272,JC Work,2018-07-11T18:11:35Z,official website,P856,created,https://products.office.com/tr-tr/excel,none
+Microsoft Excel,Q11272,JC Work,2018-07-11T18:10:51Z,official website,P856,created,https://products.office.com/en-gb/excel,none
+Microsoft Excel,Q11272,JC Work,2018-07-11T18:10:31Z,official website,P856,created,https://products.office.com/en-us/excel,none
+Microsoft Excel,Q11272,YULdigitalpreservation,2018-04-12T19:13:35Z,readable file format,P1072,created,Microsoft Excel Workspace,Q51801521
+Microsoft Excel,Q11272,YULdigitalpreservation,2018-04-12T19:06:17Z,readable file format,P1072,created,"Microsoft Excel Chart, version 4",Q51801210
+Microsoft Excel,Q11272,YULdigitalpreservation,2018-04-12T19:06:02Z,readable file format,P1072,created,Microsoft Excel Template,Q44935377
+Microsoft Excel,Q11272,YULdigitalpreservation,2018-04-12T19:05:49Z,readable file format,P1072,created,Microsoft Excel Toolbar,Q51801109
+Microsoft Excel,Q11272,YULdigitalpreservation,2018-04-12T19:05:36Z,readable file format,P1072,created,Microsoft Excel Add-In,Q51800130
+Microsoft Excel,Q11272,YULdigitalpreservation,2018-04-12T19:05:25Z,readable file format,P1072,created,"Microsoft Excel Macro, version 4",Q51800009
+Microsoft Excel,Q11272,YULdigitalpreservation,2018-04-10T14:16:45Z,readable file format,P1072,created,Microsoft Excel OLE DB Query,Q51718015
+Microsoft Excel,Q11272,Zyksnowy,2018-01-03T17:29:52Z,Zhihu topic ID,P3553,created,zhihu https://www.zhihu.com/topic/19567930zjo,none
+Microsoft Excel,Q11272,Zyksnowy,2018-01-03T17:18:50Z,iTunes app ID,P3861,created,586683407/,none
+Microsoft Excel,Q11272,Danrok,2018-01-02T15:36:55Z,part of,P361,updated,Microsoft Office,Q11255
+Microsoft Excel,Q11272,Mary Kornysheva,2017-11-05T13:40:47Z,programming language,P277,created,C++,Q2407
+Microsoft Excel,Q11272,Wdpp,2017-09-23T18:39:39Z,readable file format,P1072,created,"OpenDocument Spreadsheet, version 1.2",Q27203789
+Microsoft Excel,Q11272,Wdpp,2017-09-23T18:37:53Z,readable file format,P1072,created,"OpenDocument Spreadsheet, version 1.1",Q27203722
+Microsoft Excel,Q11272,Wdpp,2017-09-23T18:05:21Z,readable file format,P1072,updated,OpenDocument,Q184473
+Microsoft Excel,Q11272,Wdpp,2017-09-23T18:04:30Z,readable file format,P1072,updated,comma-separated values,Q935809
+Microsoft Excel,Q11272,Wdpp,2017-09-23T18:02:46Z,readable file format,P1072,created,comma-separated values,Q935809
+Microsoft Excel,Q11272,Wdpp,2017-09-23T18:01:59Z,readable file format,P1072,created,OpenDocument,Q184473
+Microsoft Excel,Q11272,Wdpp,2017-09-23T18:00:51Z,readable file format,P1072,created,dBASE Table File Format,Q16545707
+Microsoft Excel,Q11272,Wdpp,2017-09-23T18:00:47Z,readable file format,P1072,created,SYmbolic LinK,Q821830
+Microsoft Excel,Q11272,Wdpp,2017-09-23T18:00:43Z,readable file format,P1072,created,Data Interchange Format,Q5227180
+Microsoft Excel,Q11272,Wdpp,2017-09-23T18:00:39Z,readable file format,P1072,created,SpreadsheetML,Q2313301
+Microsoft Excel,Q11272,Wdpp,2017-09-23T18:00:36Z,readable file format,P1072,created,Office Open XML,Q279979
+Microsoft Excel,Q11272,Wdpp,2017-09-23T17:44:20Z,readable file format,P1072,created,Binary Interchange File Format,Q28858058
+Microsoft Excel,Q11272,Wdpp,2017-09-23T17:40:42Z,official website,P856,created,https://products.office.com/zh-hk/excel,none
+Microsoft Excel,Q11272,Wdpp,2017-09-23T17:40:14Z,official website,P856,created,https://products.office.com/zh-tw/excel,none
+Microsoft Excel,Q11272,Wdpp,2017-09-23T17:39:17Z,official website,P856,created,https://products.office.com/zh-cn/excel,none
+Microsoft Excel,Q11272,Wdpp,2017-09-23T17:21:13Z,official website,P856,created,https://products.office.com/ja-jp/excel,none
+Microsoft Excel,Q11272,Wdpp,2017-09-23T17:20:39Z,official website,P856,created,https://products.office.com/fr/excel,none
+Microsoft Excel,Q11272,85.185.135.148,2017-08-26T12:11:46Z,license,P275,created,software as a service,Q1254596
+Microsoft Excel,Q11272,85.185.135.148,2017-08-26T12:11:29Z,license,P275,created,freemium,Q1444631
+Microsoft Excel,Q11272,190.148.166.121,2017-03-30T03:12:42Z,operating system,P306,created,Windows Mobile,Q21207
+Microsoft Excel,Q11272,190.148.166.121,2017-03-30T03:12:24Z,operating system,P306,created,iOS,Q48493
+Microsoft Excel,Q11272,190.148.166.121,2017-03-30T03:12:13Z,operating system,P306,created,Android,Q94
+Microsoft Excel,Q11272,Helgi-S,2017-02-01T14:57:40Z,logo image,P154,created,Microsoft Excel 2013 logo.svg,none
+Microsoft Excel,Q11272,Chetankale1978,2017-01-30T04:22:10Z,publication date,P577,created,30 September 1985,none
+Microsoft Excel,Q11272,Pixeldomain,2016-10-25T01:32:46Z,has edition,P747,created,Microsoft Excel 2007,Q10329635
+Microsoft Excel,Q11272,Pixeldomain,2016-10-25T01:32:27Z,PRONOM software identifier,P2749,created,x-sfw/270,none
+Microsoft Excel,Q11272,Pixeldomain,2016-10-25T01:32:21Z,PRONOM software identifier,P2749,created,x-sfw/21,none
+Microsoft Excel,Q11272,Pixeldomain,2016-10-25T01:31:23Z,PRONOM software identifier,P2749,created,x-sfw/22,none
+Microsoft Excel,Q11272,Pixeldomain,2016-10-25T01:31:16Z,PRONOM software identifier,P2749,created,x-sfw/23,none
+Microsoft Excel,Q11272,Pixeldomain,2016-10-25T01:31:12Z,PRONOM software identifier,P2749,created,x-sfw/24,none
+Microsoft Excel,Q11272,Pixeldomain,2016-10-25T01:31:07Z,PRONOM software identifier,P2749,created,x-sfw/25,none
+Microsoft Excel,Q11272,Pixeldomain,2016-10-25T01:31:01Z,PRONOM software identifier,P2749,created,x-sfw/276,none
+Microsoft Excel,Q11272,Pixeldomain,2016-10-25T01:30:54Z,PRONOM software identifier,P2749,created,x-sfw/20,none
+Microsoft Excel,Q11272,Pixeldomain,2016-10-25T01:30:50Z,PRONOM software identifier,P2749,created,x-sfw/26,none
+Microsoft Excel,Q11272,Hardwigg,2016-09-25T04:51:49Z,instance of,P31,created,spreadsheet,Q183197
+Microsoft Excel,Q11272,Mwtoews,2016-06-07T22:52:09Z,Alias,none,created,Excel,none
+Microsoft Excel,Q11272,Karol Szapsza,2015-12-19T20:30:28Z,GND ID,P227,created,041389328,none
+Microsoft Excel,Q11272,Superchilum,2015-03-24T14:29:07Z,topic's main category,P910,created,Category:Microsoft Excel,Q19366981
+Microsoft Excel,Q11272,Genium,2014-11-28T07:16:37Z,instance of,P31,created,proprietary software,Q218616
