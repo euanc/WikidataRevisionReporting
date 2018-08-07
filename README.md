@@ -6,6 +6,9 @@ The program is not comprehensive. It's only intended to show that you can retrie
 
 Usage:
 
-Using your commandline run the program with a QID and wikidata username as parameters, e.g.:
+Using your CLI (Powershell/Terminal etc) run the program with a QID and wikidata username as parameters, e.g.:
 
 "python wikidataRevisionsReporting.py Q11272 YULdigitalpreservation"
+
+Prerequisites:
+Python 3.x
