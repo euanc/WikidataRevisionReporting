@@ -40,11 +40,11 @@ for page in jsonFile["query"]["pages"]:
         #if making a claim that a property value is another item, look up the item and print it's english label
         if revision["comment"].find("]]: [[Q") > 1:
           assignedQID = (revision["comment"][revision["comment"].find("]]: [[Q") + 6:revision["comment"].find("]]",revision["comment"].find("]]: [[Q") + 2)])
-          print(revision["timestamp"] + ": '" + englishLabel(propertyPID) + " (" + propertyPID + ")" + "' created as: " + englishLabel(assignedQID) + " (" + assignedQID + ")")
+          print(revision["timestamp"] + ": '" + englishLabel(propertyPID) + "' (" + propertyPID + ")" + " created as: '" + englishLabel(assignedQID) + "'" + " (" + assignedQID + ")")
         #otherwise just print the property value
         elif revision["comment"].find("]]: ") > 1:
          
-          print(revision["timestamp"] + ": '" + englishLabel(propertyPID) + " (" + propertyPID + ")" + "' created as: " + revision["comment"][revision["comment"].find("]]: ") + 4: ])
+          print(revision["timestamp"] + ": '" + englishLabel(propertyPID) + "' (" + propertyPID + ")" + " created as: '" + revision["comment"][revision["comment"].find("]]: ") + 4: ] + "'")
         else:
           pass
           
@@ -55,15 +55,15 @@ for page in jsonFile["query"]["pages"]:
         
         if revision["comment"].find("]]: [[Q") > 1:
           assignedQID = (revision["comment"][revision["comment"].find("]]: [[Q") + 6:revision["comment"].find("]]",revision["comment"].find("]]: [[Q") + 2)])
-          print(revision["timestamp"] + ": '" + englishLabel(propertyPID) + " (" + propertyPID + ")" + "' updated to: " + englishLabel(assignedQID) + " (" + assignedQID + ")")
+          print(revision["timestamp"] + ": '" + englishLabel(propertyPID) + "' (" + propertyPID + ")" + " updated to: '" + englishLabel(assignedQID) + "'" + " (" + assignedQID + ")")
         elif revision["comment"].find("]]: ") > 1:
          
-          print(revision["timestamp"] + ": '" + englishLabel(propertyPID) + " (" + propertyPID + ")" + "' updated to: " + revision["comment"][revision["comment"].find("]]: ") + 4:])
+          print(revision["timestamp"] + ": '" + englishLabel(propertyPID) + "' (" + propertyPID + ")" + " updated to: '" + revision["comment"][revision["comment"].find("]]: ") + 4:] + "'")
         else:
           pass
       
       elif revision["comment"].startswith("/* wbsetaliases-add:1|en */"):
-        print(revision["timestamp"] + ": Alias created as: " + revision["comment"][28:])
+        print(revision["timestamp"] + ": Alias created as: '" + revision["comment"][28:] + "'")
       
       else:
         pass
