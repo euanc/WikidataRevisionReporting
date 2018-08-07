@@ -28,7 +28,6 @@ wikidataJSONURL = urllib.request.urlopen(wdURL)
 jsonFile = json.load(wikidataJSONURL)
 
 for page in jsonFile["query"]["pages"]:
-  print("item: " + englishLabel(jsonFile["query"]["pages"][page]["title"]) + " (" + QID + ")")
   print("Recent changes made to item: '" + englishLabel(jsonFile["query"]["pages"][page]["title"]) + "' (" + QID + ") by user '" + username + "':" )
   for revision in jsonFile["query"]["pages"][page]["revisions"]:
     #print(str(revision))
