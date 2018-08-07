@@ -28,7 +28,7 @@ wikidataJSONURL = urllib.request.urlopen(wdURL)
 jsonFile = json.load(wikidataJSONURL)
 
 for page in jsonFile["query"]["pages"]:
-  print("Item: " + englishLabel(jsonFile["query"]["pages"][page]["title"]))
+  print("Item: " + englishLabel(jsonFile["query"]["pages"][page]["title"]) + " (" + QID + ")")
   print("Changes made:")
   for revision in jsonFile["query"]["pages"][page]["revisions"]:
     #print(str(revision))
@@ -40,11 +40,11 @@ for page in jsonFile["query"]["pages"]:
         #if making a claim that a property value is another item, look up the item and print it's english label
         if revision["comment"].find("]]: [[Q") > 1:
           assignedQID = (revision["comment"][revision["comment"].find("]]: [[Q") + 6:revision["comment"].find("]]",revision["comment"].find("]]: [[Q") + 2)])
-          print(revision["timestamp"] + ": '" + englishLabel(propertyPID) + "' created as: " + englishLabel(assignedQID))
+          print(revision["timestamp"] + ": '" + englishLabel(propertyPID) + " (" + propertyPID + ")" + "' created as: " + englishLabel(assignedQID) + " (" + assignedQID + ")")
         #otherwise just print the property value
         elif revision["comment"].find("]]: ") > 1:
          
-          print(revision["timestamp"] + ": '" + englishLabel(propertyPID) + "' created as: " + revision["comment"][revision["comment"].find("]]: ") + 4: ])
+          print(revision["timestamp"] + ": '" + englishLabel(propertyPID) + " (" + propertyPID + ")" + "' created as: " + revision["comment"][revision["comment"].find("]]: ") + 4: ])
         else:
           pass
           
@@ -55,10 +55,10 @@ for page in jsonFile["query"]["pages"]:
         
         if revision["comment"].find("]]: [[Q") > 1:
           assignedQID = (revision["comment"][revision["comment"].find("]]: [[Q") + 6:revision["comment"].find("]]",revision["comment"].find("]]: [[Q") + 2)])
-          print(revision["timestamp"] + ": '" + englishLabel(propertyPID) + "' updated to: " + englishLabel(assignedQID))
+          print(revision["timestamp"] + ": '" + englishLabel(propertyPID) + " (" + propertyPID + ")" + "' updated to: " + englishLabel(assignedQID) + " (" + assignedQID + ")")
         elif revision["comment"].find("]]: ") > 1:
          
-          print(revision["timestamp"] + ": '" + englishLabel(propertyPID) + "' updated to: " + revision["comment"][revision["comment"].find("]]: ") + 4:])
+          print(revision["timestamp"] + ": '" + englishLabel(propertyPID) + " (" + propertyPID + ")" + "' updated to: " + revision["comment"][revision["comment"].find("]]: ") + 4:])
         else:
           pass
       
